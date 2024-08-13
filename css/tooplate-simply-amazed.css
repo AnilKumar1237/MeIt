@@ -988,7 +988,7 @@ figure.effect-julia:hover p {
 
 .contact-section .contact-form .form-group { margin-bottom: 24px; }
 .tm-contact-item-inner { max-width: 360px; }
-.tm-contact-item-inner-2 { max-width: 330px; }
+.tm-contact-item-inner-2 { max-width: 400px; }
 
 .tm-contact-item-inner,
 .tm-contact-item-inner-2 {
@@ -1026,7 +1026,7 @@ figure.effect-julia:hover p {
 
 .contact-section .contact-details ul li .lbl {
   display: inline-block;
-  max-width: 55px;
+  max-width: 80px;
   width: 100%;
 }
 
@@ -1062,7 +1062,21 @@ figure.effect-julia:hover p {
   margin-top: 30px;
   /* <<< Dummy Side >>> */
 }
-
+.banner-announcemant{
+  font-size: 20px;
+  background: #356ba2;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+.blink {
+  animation: blinker 5s linear infinite;
+  font-family: sans-serif;
+}
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}
 @media (min-height: 600px){  
   .contact-section { position: relative; }
 
