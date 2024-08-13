@@ -988,7 +988,7 @@ figure.effect-julia:hover p {
 
 .contact-section .contact-form .form-group { margin-bottom: 24px; }
 .tm-contact-item-inner { max-width: 360px; }
-.tm-contact-item-inner-2 { max-width: 400px; }
+.tm-contact-item-inner-2 { max-width: 100%; }
 
 .tm-contact-item-inner,
 .tm-contact-item-inner-2 {
