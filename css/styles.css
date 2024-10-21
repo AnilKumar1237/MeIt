@@ -622,6 +622,7 @@ textarea.form-control {
 }
 
 .bg-blue-transparent { background-color: rgb(102 153 204 / 0.8); }
+.bg-meit-transparent { background: url(../img/MEIT-BG.png); background-repeat: round;  }
 
 .banner-section .logo-fa {  
   color: #fff;
@@ -632,7 +633,10 @@ textarea.form-control {
   font-size: 32px;
   margin-bottom: 60px;
 }
-
+.ico-power{
+  content: url(../icons/power-icon-128.png);
+  height: 85px;
+}
 @media (max-width: 991px) {
   .banner-section .logo-fa { margin: 0 auto 30px; }
 }
